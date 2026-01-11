@@ -1,16 +1,49 @@
-# todo_app
+#  Todo App (Flutter)
 
-A new Flutter project.
+A modern and efficient Todo application built with Flutter.  
+This app helps users manage daily tasks with a clean UI, offline storage, and theme support.
 
-## Getting Started
+Built as part of my Flutter portfolio to demonstrate state management, local persistence, and scalable app architecture.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Add, edit, and delete tasks  
+- Mark tasks as completed  
+- Persistent local storage using Hive  
+- Light & Dark mode toggle  
+- Clean Material 3 UI  
+- Fast and offline first  
+- Cross-platform (Windows, Web, Android-ready)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🧰 Tech Stack
+
+- Flutter  
+- Dart  
+- Hive (local database)  
+- Provider (state management)  
+- Material 3
+
+---
+
+## 🏗️ Architecture
+
+- `models/` – Task data model  
+- `providers/` – State management (tasks & theme)  
+- `screens/` – App UI screens  
+- `main.dart` – App entry point & providers setup  
+
+Uses **Provider** for reactive UI updates and **Hive** for lightweight, fast local persistence.
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Emma005991/flutter-todo-app.git
+cd flutter-todo-app
