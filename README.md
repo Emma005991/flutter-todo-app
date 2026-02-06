@@ -15,7 +15,7 @@ Built as part of my Flutter portfolio to demonstrate state management, local per
 - Light & Dark mode toggle  
 - Clean Material 3 UI  
 - Fast and offline first  
-- Cross-platform (Windows, Web, Android-ready)
+- Cross platform (Windows, Web, Android)
 
 ---
 
